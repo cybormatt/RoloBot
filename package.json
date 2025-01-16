@@ -1,0 +1,31 @@
+{
+  "name": "rolobot",
+  "version": "1.0.0",
+  "description": "This bot keeps track of all the bots within a server, indexing them into a presentable table. Server owners can add their own descriptions for each bot.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybormatt/RoloBot.git"
+  },
+  "keywords": [
+    "bot",
+    "index",
+    "indexer"
+  ],
+  "author": "Cybormatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cybormatt/RoloBot/issues"
+  },
+  "homepage": "https://github.com/cybormatt/RoloBot#readme",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "mysql2": "^3.12.0"
+  }
+}
